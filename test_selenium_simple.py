@@ -87,6 +87,7 @@ def test_show_my_pets():
    # Проверяем - хотя бы у половины питомцев есть фото
    assert pets_with_img >= (len(pets_cards)-1)/2
 
+   # Поиск сведений о питомцах - фото, имя, возраст и порода
    desc_list = []
    for i in range(1, len(pets_cards)):
       tmp_list = []
